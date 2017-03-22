@@ -88,17 +88,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+body{
+  color: white;
+  font-family: "helvetica", sans-serif;
+  background-color: black;
+  background: url("../img/background.png");
+  background-position: top;
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.container{
+
+  padding: 100px 20px 20px 20px;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+	max-width: 750px;
+	background: url("../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+	text-indent: -9999px;
+  margin: 0 auto;
+}
+
+.app-store-badges img{
+  max-width: 250px;
+  margin: 20px;
+
+}
 
 
+.center-text{
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
+#canvas{
+max-width: 100%;
+position: fixed;
+top: 0px;
+margin: 0 auto;
+}
 
 
 

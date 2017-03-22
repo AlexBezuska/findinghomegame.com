@@ -1,33 +1,51 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Finding Home - An interactive storybook game that children can play along with their parents</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Finding Home - An interactive storybook game that children can play along with their parents</title>
+  <title>The Rock (1996)</title>
+  <meta property="og:title" content="Finding Home" />
+  <meta property="og:type" content="game" />
+  <meta property="og:url" content="http://www.findinghomegame.com" />
+  <meta property="og:image" content="http://www.findinghomegame.com/img/logo.png" />
+  <meta name="description" content="An interactive storybook game that children can play along with their parents by Alex Bezuska">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- Add your site or application content here -->
-        <h1>Finding Home</h1>
-        <p>An interactive storybook game that children can play along with their parents.</p>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+<canvas id="canvas" width="900" height="900"></canvas>
+
+<div class="container">
 
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
+  <img class="logo" src="img/logo.png" alt="Finding Home - An interactive storybook game that children can play along with their parents" />
+
+  <div class="app-store-badges center-text">
+    <img src="img/comingsoon-apple.png" alt="Finding Home - An interactive storybook game that children can play along with their parents coming soon to iPad iPhone iOS App store"/>
+    <img src="img/comingsoon-google.png" alt="Finding Home - An interactive storybook game that children can play along with their parents coming soon to android"/>
+  </div>
+
+
+
+  <p class="center-text">&copy; 2017 Alex Bezuska</p>
+</div>
+
+<script src="js/fireflies.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+  ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
 </html>
